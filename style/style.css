@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+color: #FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.header-nav{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 200px 0 200px;
+}
+.btn-secondery{
+    height: 64px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 20px 24px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+}
+.btn-primary{
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    }
+/* banner section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-paragraph{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px;
+}
+/* about me style */
+.about-me{
+    margin: 130px 230px;
+    background-color: #FFF8F3; ;
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.aboutme-description{
+    color: #757575;
+    padding: 30px 100px 30px 100px;
+    text-align: center;    
+}
+ .about-info{
+    display: flex;
+    gap: 65px;
+    text-align: center;
+    padding: 0 150px 100px 150px;
+}
+.extra-about{
+    margin: 0 230px 100px 230px;
+}
+
+.extra-what-do{
+font-size: 35;
+font-weight: 700;
+text-align: center;
+}
+.extra-para{
+    font-size: 18;
+    text-align: center;
+    padding: 30px 130px 0px 130px;
+}
+.extra-section{
+    margin: 0 230px 20px 230px;
+}
+.extra-info{
+    display: flex;
+    gap: 30px;
+}
+
+.experience-table{
+    border-radius: 5px;
+    background: #fafafa;
+    padding: 0 20px;
+}
+.experience-img{
+    padding-top: 20px;
+}
+
+ .experience-data{
+    padding: 20px 0;
+ }
+ .experience-bio{
+    width: 180px;
+    color: #757575;
+    padding-bottom: 20px;
+ }
+
+
+.my-resume{
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin-top: 30px;
+}
+.my-aducation{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.master{
+    margin: 60px 240px 0px 240px;
+}
+.education{
+    padding: 20px 0 30px 0;
+}
+.university{
+    font-size: 2opx;
+    padding: 10px 0;
+}
+.technologies{
+    color: var(--Dark-03, #757575);
+    padding-bottom: 50px;
+}
+.icon{
+    margin: 0 20px 10px 0;
+}
+.download-icon{
+    margin: 20px;
+    padding-right:o 500px 0 900px;
+}
+.footer{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+.footer-heading{
+    margin: 20px 0 20px 20px;
+    padding: 20pxs px;
+}
+.footer-paragraph{
+    margin: 20px;
+}
+.footer-ul{
+    list-style: none;
+    padding-right: 30px;
+}
+
+.footer-icon{
+    padding-left: 20px;
+}
+
+.footer-li{
+    padding: 5px;
+}
+.message{
+    height: 70px;
+}
+
+.btn-submit{
+    margin: 0 550px 50px 880px;
+}
